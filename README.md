@@ -1,194 +1,54 @@
-# 🌟 Zenith - Mental Health & Wellness Platform
+# 🌈 Zenith – Gamified AI-Powered Mental Health Companion
 
-A comprehensive mental health and wellness platform built with React, TypeScript, and modern web technologies. Zenith provides interactive tools, games, and resources to support mental well-being through a combination of therapeutic activities, mood tracking, and AI-powered assistance.
+Zenith is a one-of-a-kind AI-powered platform designed to help individuals manage emotions, express creativity, and track their mental well-being — all while keeping user privacy at the forefront.
 
-## ✨ Features Overview
+## 🧠 What is Zenith?
 
-### 🎮 Interactive Wellness Games
+Zenith is a gamified mental health platform that combines:
+- 🎨 **Satrang** – AI art therapy for emotional expression
+- 📅 **Mood Calendar** – Daily mood logging and sentiment tracking
+- 📝 **Multimodal Journaling** – Voice, canvas, and text-based entries for inclusive expression
+- 🎯 **Goal Setter** – Set and visualize mental wellness goals
+- 🧘 **Sahayak (AI Digital Twin Therapist)** – Real-time voice therapist using LLM + Eleven Labs
+- 💬 **ASHA Chatbot** – A friend and guide through emotional check-ins
+- 🆘 **Panic Button** – Emergency WhatsApp alerts triggered by emotion-aware AI
+- 🎮 **Gamified Tools** – Gratitude garden, punching bag, and coping challenge quests
 
-• **Breathing Game**  
-	◦ Interactive breathing exercise tool with visual guidance  
-	◦ Customizable breathing patterns and rhythms  
-	◦ Visual and audio cues for relaxation  
-	◦ Progress tracking and achievement system  
+## 🚀 Features
 
-• **Memory Match**  
-	◦ Cognitive training through card matching  
-	◦ Themed decks for varied experiences  
-	◦ Progressive difficulty levels  
-	◦ Focus enhancement exercises  
+| Feature | Description |
+|--------|-------------|
+| `AI Therapist` | Talk to your AI twin trained for trauma and CBT-based support |
+| `Emergency Assistance` | Emotion-aware panic button that notifies a trusted contact via WhatsApp |
+| `AI Art Therapy` | Generate expressive artworks based on mood and journal entries |
+| `Gamification` | Earn tokens, complete challenges, and cultivate wellness habits |
+| `Privacy-First` | Web3 infrastructure ensures full data ownership and anonymity |
 
+## 💡 Real-World Use Cases
 
-• **Mindful Maze**  
-	◦ Meditation-focused navigation game  
-	◦ Breathing checkpoints for mindfulness  
-	◦ Calming visual and audio elements  
-	◦ Achievement-based progression  
+- For someone struggling with panic attacks, the panic button ensures immediate outreach.
+- A user who can't express with words can use art or voice to journal their emotions.
+- The AI twin acts as a consistent, judgment-free listener — especially when people can’t open up to those around them.
 
-• **Calming Puzzle**  
-	◦ Therapeutic puzzle-solving experience  
-	◦ Customizable difficulty settings  
-	◦ Soothing imagery and animations  
-	◦ Stress relief tracking  
+## 🔮 Tech Stack
 
-• **Punching Bag**  
-	◦ Virtual stress relief mechanism  
-	◦ Haptic feedback integration  
-	◦ Dynamic sound effects  
-	◦ Tension release monitoring  
+- **Frontend**: React, TailwindCSS
+- **Backend**: Node.js, Express.js, Firebase (Auth + DB)
+- **AI Models**: Hugging Face (Sentiment Analysis), Eleven Labs, Gemini Pro
+- **Web3**: IPFS for journaling data storage
+- **APIs**: WhatsApp Cloud API, DALL·E, DeepAI, OpenAI
 
-### 🎨 Creative Expression Tools
+## 🔗 Try It Out
 
-• **Satrang AI Art Therapy**  
-	◦ Emotional description to artwork conversion  
-	◦ State-of-the-art AI image generation  
-	◦ Therapeutic creative expression  
-	◦ Integration with mood tracking  
-	◦ Journal entry capabilities
+Coming soon – hosted link!
 
-• **Emoji Garden**  
-	◦ Virtual emotional growth tracking
-	◦ Interactive emoji flower planting
-	◦ Visual emotional journey mapping
-	◦ Progress visualization
+## 🧩 Future Plans
 
-### 📝 Mood Tracking & Journaling
+- Expand into mindfulness games & meditations
+- CBT-based guided paths
+- Integrated resource library
+- Token reward system (MWT – Mental Wellness Tokens)
 
-• **Mood Calendar**
-	◦ Daily emotion tracking
-	◦ Customizable mood categories
-	◦ Pattern recognition analytics
-	◦ Monthly/yearly overviews
-	◦ Statistical mood analysis
+---
 
-• **Multi-Modal Journaling**
-	◦ Rich text formatting
-	◦ Voice recording with emotion detection
-	◦ Video entries with expression analysis
-	◦ AI-powered emotion tagging
-	◦ Privacy controls
-
-### 💬 Mental Health Support
-
-• **Asha Chatbot**
-	◦ 24/7 AI mental health companion
-	◦ Crisis detection algorithms
-	◦ Personalized coping strategies
-	◦ Progress monitoring
-	◦ Resource recommendations
-
-• **Emergency Services**
-	◦ Quick-access crisis helplines
-	◦ Location-aware emergency support
-	◦ Custom emergency contacts
-	◦ One-touch alert system
-
-• **Sahayak Therapy Platform**
-	◦ Professional therapist directory
-	◦ Appointment management
-	◦ Secure video consultations
-	◦ Session history tracking
-	◦ Encrypted messaging
-
-### 👤 User Experience
-
-• **Profile System**
-	◦ Custom avatar creation
-	◦ Theme personalization
-	◦ Goal setting & tracking
-	◦ Privacy management
-	◦ Data control center
-
-• **Analytics Dashboard**
-	◦ Comprehensive wellness metrics
-	◦ Progress visualization
-	◦ Custom milestone tracking
-	◦ Exportable reports
-	◦ Trend analysis
-
-## 🛠️ Technical Stack
-
-### Frontend
-• **Core Technologies**
-	◦ React + TypeScript
-	◦ TailwindCSS + Shadcn/ui
-	◦ Framer Motion animations
-
-### Backend
-• **Infrastructure**
-	◦ Supabase Authentication
-	◦ Real-time database
-	◦ Secure file storage
-	◦ Row-level security
-
-### AI Integration
-• **Technologies**
-	◦ Google Generative AI
-	◦ Natural Language Processing
-	◦ Computer Vision
-	◦ Emotion Analysis
-
-
-## 📦 Setup Guide
-
-### Prerequisites
-• Node.js (v18+)  
-• npm or yarn  
-• Git
-
-### Installation Steps
-
-1️⃣ Clone Repository
-```bash
-git clone <repository-url>
-cd zenith
-```
-
-2️⃣ Install Dependencies
-```bash
-npm install
-```
-
-3️⃣ Configure Environment
-```bash
-cp .env.example .env
-```
-
-4️⃣ Launch Development Server
-```bash
-npm run dev
-```
-
-## 📜 Available Commands
-
-• `npm run dev` → Development server  
-• `npm run build` → Production build  
-• `npm run build:dev` → Development build  
-• `npm run lint` → Code linting  
-• `npm run preview` → Build preview  
-• `npm run server` → Production server  
-• `npm start` → Build and serve
-
-## 📁 Project Architecture
-
-```
-src/
-├── api/          • API integrations
-├── components/   • React components
-├── contexts/     • State contexts
-├── hooks/        • Custom hooks
-├── integrations/ • Third-party services
-├── lib/          • Utilities
-├── pages/        • Route components
-├── services/     • Business logic
-└── types/        • Type definitions
-```
-
-## 🤝 Contribution Guide
-
-1️⃣ Fork repository  
-2️⃣ Create feature branch (`git checkout -b feature/amazing-feature`)  
-3️⃣ Commit changes (`git commit -m 'Add amazing feature'`)  
-4️⃣ Push to branch (`git push origin feature/amazing-feature`)  
-5️⃣ Open Pull Request
-
+🫂 *Zenith is more than an app — it’s a movement towards accessible, judgment-free mental wellness, backed by tech and heart.*
