@@ -1,0 +1,3 @@
+import '@/styles/globals.css';
+import '@/styles/flip.css';
+// ... existing code ... 
