@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const WIT_SERVER_ACCESS_TOKEN = 'GB2JQ3K42XAJGBQY7EGVESOR26B4H65T';
+const WIT_SERVER_ACCESS_TOKEN = process.env.WIT_SERVER_ACCESS_TOKEN;
 
 interface WitResponse {
   text: string;

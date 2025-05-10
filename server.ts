@@ -8,8 +8,8 @@ const router: Router = express.Router();
 const port = process.env.PORT || 3001;
 
 // Twilio configuration
-const accountSid = 'ACf4c5ce477bb6d5ce11ff20a550f1bef5';
-const authToken = 'cfbabf95a7e97d12a3733381d8f8c442';
+const accountSid = process.env.TWILIO_ACCOUNT_SID;
+const authToken = process.env.TWILIO_AUTH_TOKEN;
 const client = twilio(accountSid, authToken);
 
 // Middleware
@@ -71,7 +71,7 @@ app.use('/api', router);
 const server = app.listen(port, () => {
   console.log(`Server running on port ${port}`);
   console.log('Twilio configuration:', {
-    accountSid: accountSid.substring(0, 5) + '...',
+    accountSid: accountSid ? accountSid.substring(0, 5) + '...' : 'undefined',
     fromNumber: 'whatsapp:+14155238886',
     toNumber: 'whatsapp:+919178379226'
   });
